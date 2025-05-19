@@ -1,0 +1,38 @@
+# Core LangChain + OpenAI (fully compatible)
+langchain==0.1.16
+langchain-core==0.1.42
+langchain-community==0.0.32
+langchain-openai==0.0.5
+langchain-text-splitters==0.0.1
+
+# OpenAI client
+openai>=1.10.0,<2.0.0
+
+# Instructor Embeddings & dependencies
+InstructorEmbedding==1.0.1
+sentence-transformers==2.2.2
+transformers==4.30.2
+huggingface_hub==0.14.1
+
+# ML stack
+torch
+scikit-learn
+numpy
+scipy
+
+# Streamlit app
+streamlit==1.32.0
+watchdog==3.0.0
+
+# Utilities
+requests
+certifi
+python-dotenv
+PyPDF2
+nltk
+
+# FAISS
+faiss-cpu==1.7.4
+
+# Pin pydantic to v1 to avoid compatibility issues
+pydantic<2.0.0
